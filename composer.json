@@ -11,10 +11,16 @@
     ],
     "require": {
         "php": ">=5.3.2",
-        "doctrine/common": ">=2.2.0,<2.3.9999",
+        "doctrine/common": "dev-DCOM-96",
         "doctrine/couchdb": "*",
         "symfony/console": ">=2.0"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "http://github.com/Ocramius/common.git"
+        }
+    ],
     "minimum-stability": "dev",
     "require-dev": {
         "symfony/yaml": ">=2.0.0,<2.2.0-dev"
